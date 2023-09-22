@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    background-color: #455a64;
+}
+
+h1 {
+    background-color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-weight:lighter ;
+    font-size: 3em;
+    color: hsl(200, 15%, 61%);
+}
+
+main {
+    color: white;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color: #cfd8dc;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    font-style: oblique;
+    font-size: 1.8em;
+    margin-top: 2em;
+}
+
+img {
+border-radius: 5%;
+border-color: grey;
+border-style: ridge;
+border-width: 5px;
+}
+
+footer {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 10%;
+}

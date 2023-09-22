@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e91e63;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    padding: 1vw;
+    background-color: #ad1457;
+    margin: 3vw;
+    margin-top: 0;
+    padding: 1vw;
+    padding-top: 0;
+}
+
+header {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #ad1457;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    margin: 3vw;
+    padding: 1vw;
+}
+
+.main {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ad1457;
+    font-size: 2vw;
+        margin-left: 3vw;
+        margin-right: 3vw;
+        padding-top: 2vw;
+        padding-left: 3vw;
+        padding-bottom: 0;
+}
+
+.section1 {
+    background-color: white;
+    margin: 3vw;
+    padding: 1vw;
+}
+
+
+.titulo {
+    display: flex;
+    justify-content: flex-end;
+    font-size: medium;
+    color: #ad1457;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img {
+    width: 100%;
+    padding-top: 1vw;
+}
+
+.parrafos {
+    color: #880e4f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    padding-top: 1vw;
+}
+
+.section2 {
+    background-color: white;
+    margin: 3vw;
+    padding: 1vw;
+}
+
+.contenedor-boton {
+    display: flex;
+    justify-content: center;
+    padding: 2vw;
+}
+
+.boton {
+    background-color: green;
+    border: 1px solid black;
+    padding: 1vw;
+    border-radius: 1vw /1vw;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
+.boton:hover {
+    background-color: #e91e63;
+}
+
+a:visited {
+    color: #f8bbd0;
+}
+
+.boton:active {
+    background-color: black;
+}
+
+footer {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #ad1457;
+    margin: 3vw;
+    padding: 1vw;
+}
